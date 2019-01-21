@@ -62,6 +62,8 @@ class FrontTutorCreateRequest extends TutorRequest {
         $rules['billing_first_name'] = 'required|min:2|max:40|regex:/' . only_alpha_valid;
         $rules['billing_last_name'] = 'required|min:2|max:40|regex:/' . only_alpha_valid;
 
+        $rules['verify_code'] = 'required|min:4|max:8|regex:/'.alpha_numeric_valid;
+
         return $rules;
     }
 

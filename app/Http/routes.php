@@ -1196,9 +1196,29 @@ Route::get('privacypolicy', function() {
 //    'uses' => 'FrontTutorController@termsconditions',
   //  'as' => 'termsconditions'
 //]);
+// Route::get('register', [
+//     'uses' => 'FrontTutorController@create',
+//     'as' => 'fronttutor.create'
+// ]);
 Route::get('register', [
-    'uses' => 'FrontTutorController@create',
-    'as' => 'fronttutor.create'
+    'uses' => 'RegisterController@create',
+    'as' => 'student.register'
+]);
+Route::post('register', [
+    'uses' => 'RegisterController@store',
+    'as' => 'student.register'
+]);
+Route::get('{user}/verify', [
+    'uses' => 'RegisterController@verify',
+    'as' => 'student.verify'
+]);
+Route::get('register/verify/{confirmationCode}', [
+    'as' => 'confirmation_path',
+    'uses' => 'RegisterController@confirm'
+]);
+Route::get('register/resend/{confirmationCode}', [
+    'as' => 'resend_code',
+    'uses' => 'RegisterController@resend'
 ]);
 Route::post('frontTutorStore', [
     'uses' => 'FrontTutorController@store',

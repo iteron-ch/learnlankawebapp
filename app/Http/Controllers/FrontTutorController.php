@@ -93,7 +93,7 @@ class FrontTutorController extends Controller {
         $data['page_title'] = trans('front/tutor.add_tutor');
         $data['trait'] = array('trait_1' => trans('front/tutor.tutor'), 'trait_1_link' => route('tutor.index'), 'trait_2' => trans('front/tutor.add_tutor'));
         $data['JsValidator'] = 'App\Http\Requests\Tutor\FrontTutorCreateRequest';
-        return view('front.tutor.create', $data);
+        return view('auth.register', $data);
     }
 
     /**
