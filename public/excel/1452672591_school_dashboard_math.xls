@@ -1,0 +1,298 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>Table0</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table><tr>
+                                                    <td style="padding:0px;">
+                                                   
+                                                        <div class="portlet-title blue_heading">
+                                                            <div class="noExl caption">
+                                                                <strong>Most Improved student</strong>
+                                                            </div>
+                                                        </div>
+                                                    </td>    
+                                                    </tr><tr>
+                                                    <td>
+                                                        <div class="row">
+                                                            <div class="col-md-4">
+                                                                <div class="portlet box red">
+                                                                    <div class="portlet-title">
+                                                                        <div class="caption">
+                                                                            <strong>Performance</strong>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="portlet-body">
+                                                                        <div class="table-scrollable">
+                                                                            <table class=" noExl table table-striped table-bordered table-hover dataTable no-footer">
+                                                                                <thead>
+                                                                                    <tr class="noExl heading" role="row">
+                                                                                        <th class="text-center" rowspan="1" colspan="1">Student Name</th>
+                                                                                        <th class="text-center" rowspan="1" colspan="1">Average Assessment Results</th>
+
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                                                                                                                <tr class="noExl">
+                                                                                                <td>Adam James</td>
+                                                                                                <td>0.00%</td>
+                                                                                            </tr>
+                                                                                                                                                                            </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="portlet box red">
+                                                                    <div class="portlet-title">
+                                                                        <div class="caption">
+                                                                           <strong> Usage</strong>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="portlet-body">
+                                                                        <div class="table-scrollable">
+                                                                            <table class=" noExl table table-striped table-bordered table-hover dataTable no-footer">
+                                                                                <thead>
+                                                                                    <tr class="noExl heading" role="row">
+                                                                                        <th class="text-center" rowspan="1" colspan="1">Student Name</th>
+                                                                                        <th class="text-center" rowspan="1" colspan="1">Timeliness</th>
+
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                                                                                                                <tr class="noExl">
+                                                                                                <td>Adam James</td>
+                                                                                                <td>0.00</td>
+                                                                                            </tr>
+                                                                                                                                                                            </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="portlet box red">
+                                                                    <div class="portlet-title">
+                                                                        <div class="noExl caption">
+                                                                            <strong>Timeliness</strong>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="portlet-body">
+                                                                        <div class="table-scrollable">
+                                                                            <table class=" noExl table table-striped table-bordered table-hover dataTable no-footer">
+                                                                                <thead>
+                                                                                    <tr class="noExl heading" role="row">
+                                                                                        <th class="text-center" rowspan="1" colspan="1">Student Name</th>
+                                                                                        <th class="text-center" rowspan="1" colspan="1">Timeliness</th>
+
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                                                                                                                <tr class="noExl">
+                                                                                                <td>Adam James</td>
+                                                                                                <td>0.00</td>
+                                                                                            </tr>
+                                                                                                                                                                            </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    
+                                                    </td>
+                                                    </tr><tr>
+                                                    <td style="padding:0px;">
+                                                   
+                                                        <div class="portlet-title blue_heading">
+                                                            <div class="noExl caption">
+                                                                <strong>Top Students</strong>
+                                                            </div>
+                                                        </div>
+                                                    </td>    
+                                                    </tr><tr>
+                                                    <td>
+                                                        <div class="row">
+                                                            <div class="col-md-4">
+                                                                <div class="portlet box red">
+                                                                    <div class="portlet-title">
+                                                                        <div class="caption">
+                                                                            <strong>Performance</strong>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="portlet-body">
+                                                                        <div class="table-scrollable">
+                                                                            <table class=" noExl table table-striped table-bordered table-hover dataTable no-footer">
+                                                                                <thead>
+                                                                                    <tr class=" noExl heading" role="row">
+                                                                                        <th class="text-center" rowspan="1" colspan="1">Student Name</th>
+                                                                                        <th class="text-center" rowspan="1" colspan="1">Average Assessment Results</th>
+
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                                                                                                                <tr class="noExl">
+                                                                                                <td>Adam James</td>
+                                                                                                <td>72.92%</td>
+                                                                                            </tr>
+                                                                                                                                                                            </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="portlet box red">
+                                                                    <div class="portlet-title">
+                                                                        <div class="caption">
+                                                                            <strong>Usage</strong>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="portlet-body">
+                                                                        <div class=" table-scrollable">
+                                                                            <table class=" noExl table table-striped table-bordered table-hover dataTable no-footer">
+                                                                                <thead>
+                                                                                    <tr class="noExl heading" role="row">
+                                                                                        <th class="text-center" rowspan="1" colspan="1">Student Name</th>
+                                                                                        <th class="text-center" rowspan="1" colspan="1">Timeliness</th>
+
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                                                                                                                <tr class="noExl">
+                                                                                                <td>Adam James</td>
+                                                                                               <td>2.43</td>
+                                                                                            </tr>
+                                                                                                                                                                            </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="portlet box red">
+                                                                    <div class="portlet-title">
+                                                                        <div class="caption">
+                                                                            <strong>Timeliness</strong>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="portlet-body">
+                                                                        <div class="table-scrollable">
+                                                                            <table class=" noExl table table-striped table-bordered table-hover dataTable no-footer">
+                                                                                <thead>
+                                                                                    <tr class="noExl heading" role="row">
+                                                                                        <th class="text-center" rowspan="1" colspan="1">Student Name</th>
+                                                                                        <th class="text-center" rowspan="1" colspan="1">Timeliness</th>
+
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                                                                                                                <tr class="noExl">
+                                                                                                <td>Adam James</td>
+                                                                                               <td>2.43</td>
+                                                                                            </tr>
+                                                                                                                                                                            </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    
+                                                    </td>
+                                                    </tr><tr>
+                                                    <td style="padding:0px;">
+                                                    
+                                                        <div class="portlet-title blue_heading">
+                                                            <div class="caption">
+                                                                <strong>Lowest Student</strong>
+                                                            </div>
+                                                        </div>
+                                                    </td>    
+                                                    </tr><tr>
+                                                    <td>
+                                                        <div class="row">
+                                                            <div class="col-md-4">
+                                                                <div class="portlet box red">
+                                                                    <div class="portlet-title">
+                                                                        <div class="caption">
+                                                                            <strong>Performance</strong>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="portlet-body">
+                                                                        <div class="table-scrollable">
+                                                                            <table class=" noExl table table-striped table-bordered table-hover dataTable no-footer">
+                                                                                <thead>
+                                                                                    <tr class="noExl heading" role="row">
+                                                                                        <th class="text-center" rowspan="1" colspan="1">Student Name</th>
+                                                                                        <th class="text-center" rowspan="1" colspan="1">Average Assessment Results</th>
+
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                                                                                                                <tr class="noExl">
+                                                                                                <td>Adam James</td>
+                                                                                                <td>72.92%</td>
+                                                                                            </tr>
+                                                                                                                                                                            </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="portlet box red">
+                                                                    <div class="portlet-title">
+                                                                        <div class="caption">
+                                                                           <strong> Usage</strong>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="portlet-body">
+                                                                        <div class="table-scrollable">
+                                                                            <table class=" noExl table table-striped table-bordered table-hover dataTable no-footer">
+                                                                                <thead>
+                                                                                    <tr class="noExl heading" role="row">
+                                                                                        <th class="text-center" rowspan="1" colspan="1">Student Name</th>
+                                                                                        <th class="text-center" rowspan="1" colspan="1">Timeliness</th>
+
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                                                                                                                <tr class="noExl">
+                                                                                                <td>Adam James</td>
+                                                                                               <td>2.43</td>
+                                                                                            </tr>
+                                                                                                                                                                            </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="col-md-4">
+                                                                <div class="portlet box red">
+                                                                    <div class="portlet-title">
+                                                                        <div class="caption">
+                                                                           <strong> Timeliness</strong>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="portlet-body">
+                                                                        <div class="table-scrollable">
+                                                                            <table class=" noExl table table-striped table-bordered table-hover dataTable no-footer">
+                                                                                <thead>
+                                                                                    <tr class="noExl heading" role="row">
+                                                                                        <th class="text-center" rowspan="1" colspan="1">Student Name</th>
+                                                                                        <th class="text-center" rowspan="1" colspan="1">Timeliness</th>
+
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                                                                                                                <tr class="noExl">
+                                                                                                <td>Adam James</td>
+                                                                                               <td>2.43</td>
+                                                                                            </tr>
+                                                                                                                                                                            </tbody>
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    
+                                                    </td>
+                                                    </tr></table></body></html>

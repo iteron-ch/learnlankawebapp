@@ -1,0 +1,801 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>Table0</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table><tr>
+                                                                    <th class="text-center" rowspan="1" colspan="1">Attempted</th>
+                                                                    <th class="text-center sorting_asc sorting_asc" onclick="sortgrid('225', 'topic', 'math','desc')" rowspan="1" colspan="1">Topic Name</th>
+                                                                    <th class="text-center" rowspan="1" colspan="1">status</th>
+                                                                    <th class="text-center" rowspan="1" colspan="1">No. Attempts</th>
+                                                                    <th class="text-center" rowspan="1" colspan="1">No. of Questions Attempted </th>
+                                                                    <!--<th class="text-center" rowspan="1" colspan="1">Usage</th>-->
+                                                                    <th class="text-center" rowspan="1" colspan="1">Topic Performance</th>
+                                                                </tr><tr>
+                                                                            <td id="tr132" onclick="expendrowrev('132')" class="down text-center"><span class="glyphicon glyphicon-ok" style="color:green;"></span></td>
+                                                                            <td class=" text-center">A - Algebra</td>
+                                                                            <td class=" text-center"><span style=" background: red;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="0-49%">33%</span></td>
+                                                                            <td class=" text-center">3</td>
+                                                                            <td class=" text-center">18</td>
+                                                                           <!-- <td class=" text-center"></td>-->
+                                                                            <td class=" text-center">                                                                                                            <div class="progress_bar">
+                                                                                                                <div class="bar yellow " style="width:37.88%">&nbsp;</div>
+                                                                                                                <span>37.88%</span>
+                                                                                                            </div>
+                                                                            </td>
+                                                                        </tr><tr>
+                                                                            <td colspan="7">
+                                                                                <table class="noExl table table-striped table-bordered table-hover dataTable no-footer">
+                                                                                    <colgroup>
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                    </colgroup>
+                                                                                    <tbody>
+                                                                                         <tr class="heading" role="row">
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Attempted</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Topic Name</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">status</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">No. Attempts</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">No. of Questions Attempted </th>
+                                                                                           <!-- <th class="text-center" rowspan="1" colspan="1">Usage</th>-->
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Topic Performance</th>
+                                                                                        </tr>
+                                                                                                                                                                                        <tr role="row" class="noExl">
+
+                                                                                                    <td class=" text-center"></td>
+                                                                                                    <td class=" text-center">A2 - Simple Formulae Expressed in Words</td>
+                                                                                                    <td class=" text-center"><span style=" background: yellow;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="69%-50">52%</span></td>
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                   <!-- <td class=" text-center">NA</td> -->
+                                                                                                    <td class=" text-center">5</td>
+                                                                                                    <td class=" text-center">
+                                                                                                        
+                                                                                                                                                                                                                    <div class="progress_bar">
+                                                                                                                <div class="bar yellow " style="width:52.17%">&nbsp;</div>
+                                                                                                                <span>52.17%</span>
+                                                                                                            </div>
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+                                                                                                                                                                                                <tr role="row" class="noExl">
+
+                                                                                                    <td class=" text-center"></td>
+                                                                                                    <td class=" text-center">A3 - Generate and Describe Linear Number Sequences</td>
+                                                                                                    <td class=" text-center"><span style=" background: red;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="0-49%">0%</span></td>
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                   <!-- <td class=" text-center">NA</td> -->
+                                                                                                    <td class=" text-center">4</td>
+                                                                                                    <td class=" text-center">
+                                                                                                        
+                                                                                                                                                                                                                    <div class="progress_bar">
+                                                                                                                <div class="bar zero " style="width:0%">&nbsp;</div>
+                                                                                                                <span>0%</span>
+                                                                                                            </div>
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+                                                                                                                                                                                                <tr role="row" class="noExl">
+
+                                                                                                    <td class=" text-center"></td>
+                                                                                                    <td class=" text-center">A4 - Number Sentences Involving Two Unknowns </td>
+                                                                                                    <td class=" text-center"><span style=" background: red;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="0-49%">0%</span></td>
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                   <!-- <td class=" text-center">NA</td> -->
+                                                                                                    <td class=" text-center">4</td>
+                                                                                                    <td class=" text-center">
+                                                                                                        
+                                                                                                                                                                                                                    <div class="progress_bar">
+                                                                                                                <div class="bar zero " style="width:0%">&nbsp;</div>
+                                                                                                                <span>0%</span>
+                                                                                                            </div>
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+                                                                                                                                                                                                <tr role="row" class="noExl">
+
+                                                                                                    <td class=" text-center"></td>
+                                                                                                    <td class=" text-center">A1 - Missing Number Problems Expressed in Algebra </td>
+                                                                                                    <td class=" text-center"><span style=" background: red;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="0-49%">41%</span></td>
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                   <!-- <td class=" text-center">NA</td> -->
+                                                                                                    <td class=" text-center">4</td>
+                                                                                                    <td class=" text-center">
+                                                                                                        
+                                                                                                                                                                                                                    <div class="progress_bar">
+                                                                                                                <div class="bar yellow " style="width:40.91%">&nbsp;</div>
+                                                                                                                <span>40.91%</span>
+                                                                                                            </div>
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+                                                                                                                                                                                                <tr role="row" class="noExl">
+
+                                                                                                    <td class=" text-center"></td>
+                                                                                                    <td class=" text-center">A5 - Enumerate possibilities of combinations of two variables</td>
+                                                                                                    <td class=" text-center"><span style=" background: red;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="0-49%">19%</span></td>
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                   <!-- <td class=" text-center">NA</td> -->
+                                                                                                    <td class=" text-center">3</td>
+                                                                                                    <td class=" text-center">
+                                                                                                        
+                                                                                                                                                                                                                    <div class="progress_bar">
+                                                                                                                <div class="bar red " style="width:19.05%">&nbsp;</div>
+                                                                                                                <span>19.05%</span>
+                                                                                                            </div>
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+                                                                                                 
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr><tr>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Attempted</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Topic Name</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">status</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">No. Attempts</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">No. of Questions Attempted </th>
+                                                                                           <!-- <th class="text-center" rowspan="1" colspan="1">Usage</th>-->
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Topic Performance</th>
+                                                                                        </tr><tr>
+                                                                            <td id="tr38" onclick="expendrowrev('38')" class="down text-center"><span class="glyphicon glyphicon-ok" style="color:green;"></span></td>
+                                                                            <td class=" text-center">C - Addition, subtraction, multiplication and division (calculations) </td>
+                                                                            <td class=" text-center"><span style=" background: green;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="70%-100%">77%</span></td>
+                                                                            <td class=" text-center">1</td>
+                                                                            <td class=" text-center">0</td>
+                                                                           <!-- <td class=" text-center"></td>-->
+                                                                            <td class=" text-center">                                                                                                            <div class="progress_bar">
+                                                                                                                <div class="bar zero " style="width:0.00%">&nbsp;</div>
+                                                                                                                <span>0.00%</span>
+                                                                                                            </div>
+                                                                            </td>
+                                                                        </tr><tr>
+                                                                            <td colspan="7">
+                                                                                <table class="noExl table table-striped table-bordered table-hover dataTable no-footer">
+                                                                                    <colgroup>
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                    </colgroup>
+                                                                                    <tbody>
+                                                                                         <tr class="heading" role="row">
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Attempted</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Topic Name</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">status</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">No. Attempts</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">No. of Questions Attempted </th>
+                                                                                           <!-- <th class="text-center" rowspan="1" colspan="1">Usage</th>-->
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Topic Performance</th>
+                                                                                        </tr>
+                                                                                                                                                                                        <tr role="row" class="noExl">
+
+                                                                                                    <td class=" text-center"></td>
+                                                                                                    <td class=" text-center">C1 - Add, Subtract Mentally </td>
+                                                                                                    <td class=" text-center"><span style=" background: red;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="0-49%">0%</span></td>
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                   <!-- <td class=" text-center">NA</td> -->
+                                                                                                    <td class=" text-center">5</td>
+                                                                                                    <td class=" text-center">
+                                                                                                        
+                                                                                                                                                                                                                    <div class="progress_bar">
+                                                                                                                <div class="bar zero " style="width:0%">&nbsp;</div>
+                                                                                                                <span>0%</span>
+                                                                                                            </div>
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+                                                                                                                                                                                                <tr role="row" class="noExl">
+
+                                                                                                    <td class=" text-center"></td>
+                                                                                                    <td class=" text-center">C2 - Add, Subtract using Written Methods </td>
+                                                                                                    <td class=" text-center"><span style=" background: red;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="0-49%">0%</span></td>
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                   <!-- <td class=" text-center">NA</td> -->
+                                                                                                    <td class=" text-center">3</td>
+                                                                                                    <td class=" text-center">
+                                                                                                        
+                                                                                                                                                                                                                    <div class="progress_bar">
+                                                                                                                <div class="bar zero " style="width:0%">&nbsp;</div>
+                                                                                                                <span>0%</span>
+                                                                                                            </div>
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+                                                                                                                                                                                                <tr role="row" class="noExl">
+
+                                                                                                    <td class=" text-center"></td>
+                                                                                                    <td class=" text-center">C4 - Add, Subtract to Solve Problems </td>
+                                                                                                    <td class=" text-center"><span style=" background: red;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="0-49%">0%</span></td>
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                   <!-- <td class=" text-center">NA</td> -->
+                                                                                                    <td class=" text-center">4</td>
+                                                                                                    <td class=" text-center">
+                                                                                                        
+                                                                                                                                                                                                                    <div class="progress_bar">
+                                                                                                                <div class="bar zero " style="width:0%">&nbsp;</div>
+                                                                                                                <span>0%</span>
+                                                                                                            </div>
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+                                                                                                                                                                                                <tr role="row" class="noExl">
+
+                                                                                                    <td class=" text-center"></td>
+                                                                                                    <td class=" text-center">C5 - Properties of Number, Multiples, Factors, Primes, Square and Cubes</td>
+                                                                                                    <td class=" text-center"><span style=" background: red;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="0-49%">0%</span></td>
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                   <!-- <td class=" text-center">NA</td> -->
+                                                                                                    <td class=" text-center">3</td>
+                                                                                                    <td class=" text-center">
+                                                                                                        
+                                                                                                                                                                                                                    <div class="progress_bar">
+                                                                                                                <div class="bar zero " style="width:0.00%">&nbsp;</div>
+                                                                                                                <span>0.00%</span>
+                                                                                                            </div>
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+                                                                                                                                                                                                <tr role="row" class="noExl">
+
+                                                                                                    <td class=" text-center"></td>
+                                                                                                    <td class=" text-center">C6 - Multiply, Divide Mentally</td>
+                                                                                                    <td class=" text-center"><span style=" background: red;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="0-49%">0%</span></td>
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                   <!-- <td class=" text-center">NA</td> -->
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                    <td class=" text-center">
+                                                                                                        
+                                                                                                                                                                                                                    <div class="progress_bar">
+                                                                                                                <div class="bar zero " style="width:0%">&nbsp;</div>
+                                                                                                                <span>0%</span>
+                                                                                                            </div>
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+                                                                                                                                                                                                <tr role="row" class="noExl">
+
+                                                                                                    <td class=" text-center"></td>
+                                                                                                    <td class=" text-center">C8 - Solve Problems (Commutative, Associative, Distributive and all Four Operations) </td>
+                                                                                                    <td class=" text-center"><span style=" background: red;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="0-49%">0%</span></td>
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                   <!-- <td class=" text-center">NA</td> -->
+                                                                                                    <td class=" text-center">2</td>
+                                                                                                    <td class=" text-center">
+                                                                                                        
+                                                                                                                                                                                                                    <div class="progress_bar">
+                                                                                                                <div class="bar zero " style="width:0%">&nbsp;</div>
+                                                                                                                <span>0%</span>
+                                                                                                            </div>
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+                                                                                                                                                                                                <tr role="row" class="noExl">
+
+                                                                                                    <td class=" text-center"></td>
+                                                                                                    <td class=" text-center">C9 - Order of Operations </td>
+                                                                                                    <td class=" text-center"><span style=" background: red;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="0-49%">0%</span></td>
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                   <!-- <td class=" text-center">NA</td> -->
+                                                                                                    <td class=" text-center">2</td>
+                                                                                                    <td class=" text-center">
+                                                                                                        
+                                                                                                                                                                                                                    <div class="progress_bar">
+                                                                                                                <div class="bar zero " style="width:0%">&nbsp;</div>
+                                                                                                                <span>0%</span>
+                                                                                                            </div>
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+                                                                                                 
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr><tr>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Attempted</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Topic Name</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">status</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">No. Attempts</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">No. of Questions Attempted </th>
+                                                                                           <!-- <th class="text-center" rowspan="1" colspan="1">Usage</th>-->
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Topic Performance</th>
+                                                                                        </tr><tr>
+                                                                            <td id="tr31" onclick="expendrowrev('31')" class="down text-center"><span class="glyphicon glyphicon-ok" style="color:green;"></span></td>
+                                                                            <td class=" text-center">F - Fractions, decimals and percentages</td>
+                                                                            <td class=" text-center"><span style=" background: green;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="70%-100%">100%</span></td>
+                                                                            <td class=" text-center">1</td>
+                                                                            <td class=" text-center">20</td>
+                                                                           <!-- <td class=" text-center"></td>-->
+                                                                            <td class=" text-center">                                                                                                            <div class="progress_bar">
+                                                                                                                <div class="bar green " style="width:68.18%">&nbsp;</div>
+                                                                                                                <span>68.18%</span>
+                                                                                                            </div>
+                                                                            </td>
+                                                                        </tr><tr>
+                                                                            <td colspan="7">
+                                                                                <table class="noExl table table-striped table-bordered table-hover dataTable no-footer">
+                                                                                    <colgroup>
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                    </colgroup>
+                                                                                    <tbody>
+                                                                                         <tr class="heading" role="row">
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Attempted</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Topic Name</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">status</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">No. Attempts</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">No. of Questions Attempted </th>
+                                                                                           <!-- <th class="text-center" rowspan="1" colspan="1">Usage</th>-->
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Topic Performance</th>
+                                                                                        </tr>
+                                                                                                                                                                                        <tr role="row" class="noExl">
+
+                                                                                                    <td class=" text-center"></td>
+                                                                                                    <td class=" text-center">F6 - Fractions, Decimals Equivalence</td>
+                                                                                                    <td class=" text-center"><span style=" background: red;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="0-49%">0%</span></td>
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                   <!-- <td class=" text-center">NA</td> -->
+                                                                                                    <td class=" text-center">5</td>
+                                                                                                    <td class=" text-center">
+                                                                                                        
+                                                                                                                                                                                                                    <div class="progress_bar">
+                                                                                                                <div class="bar zero " style="width:0%">&nbsp;</div>
+                                                                                                                <span>0%</span>
+                                                                                                            </div>
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+                                                                                                                                                                                                <tr role="row" class="noExl">
+
+                                                                                                    <td class=" text-center"></td>
+                                                                                                    <td class=" text-center">F10 - Solve Problems with Fractions and Decimals</td>
+                                                                                                    <td class=" text-center"><span style=" background: yellow;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="69%-50">68%</span></td>
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                   <!-- <td class=" text-center">NA</td> -->
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                    <td class=" text-center">
+                                                                                                        
+                                                                                                                                                                                                                    <div class="progress_bar">
+                                                                                                                <div class="bar green " style="width:68.18%">&nbsp;</div>
+                                                                                                                <span>68.18%</span>
+                                                                                                            </div>
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+                                                                                                 
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr><tr>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Attempted</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Topic Name</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">status</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">No. Attempts</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">No. of Questions Attempted </th>
+                                                                                           <!-- <th class="text-center" rowspan="1" colspan="1">Usage</th>-->
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Topic Performance</th>
+                                                                                        </tr><tr>
+                                                                            <td id="tr58" onclick="expendrowrev('58')" class="text-center up"><span class="glyphicon glyphicon-ok" style="color:green;"></span></td>
+                                                                            <td class=" text-center">G - Geometry - properties of shapes</td>
+                                                                            <td class=" text-center"><span style=" background: red;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="0-49%">21%</span></td>
+                                                                            <td class=" text-center">3</td>
+                                                                            <td class=" text-center">3</td>
+                                                                           <!-- <td class=" text-center"></td>-->
+                                                                            <td class=" text-center">                                                                                                            <div class="progress_bar">
+                                                                                                                <div class="bar yellow " style="width:44.00%">&nbsp;</div>
+                                                                                                                <span>44.00%</span>
+                                                                                                            </div>
+                                                                            </td>
+                                                                        </tr><tr>
+                                                                            <td colspan="7">
+                                                                                <table class="noExl table table-striped table-bordered table-hover dataTable no-footer">
+                                                                                    <colgroup>
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                    </colgroup>
+                                                                                    <tbody>
+                                                                                         <tr class="heading" role="row">
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Attempted</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Topic Name</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">status</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">No. Attempts</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">No. of Questions Attempted </th>
+                                                                                           <!-- <th class="text-center" rowspan="1" colspan="1">Usage</th>-->
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Topic Performance</th>
+                                                                                        </tr>
+                                                                                                                                                                                        <tr role="row" class="noExl">
+
+                                                                                                    <td class=" text-center"></td>
+                                                                                                    <td class=" text-center">GP2 - Describe Position, Direction &amp; Movement</td>
+                                                                                                    <td class=" text-center"><span style=" background: red;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="0-49%">40%</span></td>
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                   <!-- <td class=" text-center">NA</td> -->
+                                                                                                    <td class=" text-center">5</td>
+                                                                                                    <td class=" text-center">
+                                                                                                        
+                                                                                                                                                                                                                    <div class="progress_bar">
+                                                                                                                <div class="bar yellow " style="width:39.53%">&nbsp;</div>
+                                                                                                                <span>39.53%</span>
+                                                                                                            </div>
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+                                                                                                                                                                                                <tr role="row" class="noExl">
+
+                                                                                                    <td class=" text-center"></td>
+                                                                                                    <td class=" text-center">G2 - Describe Properties &amp; Classify Shapes</td>
+                                                                                                    <td class=" text-center"><span style=" background: red;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="0-49%">45%</span></td>
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                   <!-- <td class=" text-center">NA</td> -->
+                                                                                                    <td class=" text-center">3</td>
+                                                                                                    <td class=" text-center">
+                                                                                                        
+                                                                                                                                                                                                                    <div class="progress_bar">
+                                                                                                                <div class="bar yellow " style="width:45.16%">&nbsp;</div>
+                                                                                                                <span>45.16%</span>
+                                                                                                            </div>
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+                                                                                                                                                                                                <tr role="row" class="noExl">
+
+                                                                                                    <td class=" text-center"></td>
+                                                                                                    <td class=" text-center">G3 - Draw and Make Shapes, Relate 2-D to 3D Shapes</td>
+                                                                                                    <td class=" text-center"><span style=" background: yellow;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="69%-50">50%</span></td>
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                   <!-- <td class=" text-center">NA</td> -->
+                                                                                                    <td class=" text-center">3</td>
+                                                                                                    <td class=" text-center">
+                                                                                                        
+                                                                                                                                                                                                                    <div class="progress_bar">
+                                                                                                                <div class="bar yellow " style="width:50.00%">&nbsp;</div>
+                                                                                                                <span>50.00%</span>
+                                                                                                            </div>
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+                                                                                                                                                                                                <tr role="row" class="noExl">
+
+                                                                                                    <td class=" text-center"></td>
+                                                                                                    <td class=" text-center">G4 - Angles – Measuring and Properties </td>
+                                                                                                    <td class=" text-center"><span style=" background: red;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="0-49%">0%</span></td>
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                   <!-- <td class=" text-center">NA</td> -->
+                                                                                                    <td class=" text-center">2</td>
+                                                                                                    <td class=" text-center">
+                                                                                                        
+                                                                                                                                                                                                                    <div class="progress_bar">
+                                                                                                                <div class="bar zero " style="width:0%">&nbsp;</div>
+                                                                                                                <span>0%</span>
+                                                                                                            </div>
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+                                                                                                                                                                                                <tr role="row" class="noExl">
+
+                                                                                                    <td class=" text-center"></td>
+                                                                                                    <td class=" text-center">G5 - Circles</td>
+                                                                                                    <td class=" text-center"><span style=" background: red;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="0-49%">0%</span></td>
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                   <!-- <td class=" text-center">NA</td> -->
+                                                                                                    <td class=" text-center">3</td>
+                                                                                                    <td class=" text-center">
+                                                                                                        
+                                                                                                                                                                                                                    <div class="progress_bar">
+                                                                                                                <div class="bar zero " style="width:0%">&nbsp;</div>
+                                                                                                                <span>0%</span>
+                                                                                                            </div>
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+                                                                                                 
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr><tr>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Attempted</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Topic Name</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">status</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">No. Attempts</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">No. of Questions Attempted </th>
+                                                                                           <!-- <th class="text-center" rowspan="1" colspan="1">Usage</th>-->
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Topic Performance</th>
+                                                                                        </tr><tr>
+                                                                            <td id="tr54" onclick="expendrowrev('54')" class="down text-center"><span class="glyphicon glyphicon-ok" style="color:green;"></span></td>
+                                                                            <td class=" text-center">M - Measurement</td>
+                                                                            <td class=" text-center"><span style=" background: red;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="0-49%">47%</span></td>
+                                                                            <td class=" text-center">2</td>
+                                                                            <td class=" text-center">20</td>
+                                                                           <!-- <td class=" text-center"></td>-->
+                                                                            <td class=" text-center">                                                                                                            <div class="progress_bar">
+                                                                                                                <div class="bar yellow " style="width:32.56%">&nbsp;</div>
+                                                                                                                <span>32.56%</span>
+                                                                                                            </div>
+                                                                            </td>
+                                                                        </tr><tr>
+                                                                            <td colspan="7">
+                                                                                <table class="noExl table table-striped table-bordered table-hover dataTable no-footer">
+                                                                                    <colgroup>
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                    </colgroup>
+                                                                                    <tbody>
+                                                                                         <tr class="heading" role="row">
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Attempted</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Topic Name</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">status</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">No. Attempts</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">No. of Questions Attempted </th>
+                                                                                           <!-- <th class="text-center" rowspan="1" colspan="1">Usage</th>-->
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Topic Performance</th>
+                                                                                        </tr>
+                                                                                                                                                                                        <tr role="row" class="noExl">
+
+                                                                                                    <td class=" text-center"></td>
+                                                                                                    <td class=" text-center">M1 -  Compare, Describe and Order Measures</td>
+                                                                                                    <td class=" text-center"><span style=" background: yellow;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="69%-50">50%</span></td>
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                   <!-- <td class=" text-center">NA</td> -->
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                    <td class=" text-center">
+                                                                                                        
+                                                                                                                                                                                                                    <div class="progress_bar">
+                                                                                                                <div class="bar yellow " style="width:50.00%">&nbsp;</div>
+                                                                                                                <span>50.00%</span>
+                                                                                                            </div>
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+                                                                                                                                                                                                <tr role="row" class="noExl">
+
+                                                                                                    <td class=" text-center"></td>
+                                                                                                    <td class=" text-center">M7 - Perimeter &amp; Area</td>
+                                                                                                    <td class=" text-center"><span style=" background: red;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="0-49%">0%</span></td>
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                   <!-- <td class=" text-center">NA</td> -->
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                    <td class=" text-center">
+                                                                                                        
+                                                                                                                                                                                                                    <div class="progress_bar">
+                                                                                                                <div class="bar zero " style="width:0%">&nbsp;</div>
+                                                                                                                <span>0%</span>
+                                                                                                            </div>
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+                                                                                                                                                                                                <tr role="row" class="noExl">
+
+                                                                                                    <td class=" text-center"></td>
+                                                                                                    <td class=" text-center">M8 - Volume</td>
+                                                                                                    <td class=" text-center"><span style=" background: red;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="0-49%">17%</span></td>
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                   <!-- <td class=" text-center">NA</td> -->
+                                                                                                    <td class=" text-center">5</td>
+                                                                                                    <td class=" text-center">
+                                                                                                        
+                                                                                                                                                                                                                    <div class="progress_bar">
+                                                                                                                <div class="bar red " style="width:17.39%">&nbsp;</div>
+                                                                                                                <span>17.39%</span>
+                                                                                                            </div>
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+                                                                                                                                                                                                <tr role="row" class="noExl">
+
+                                                                                                    <td class=" text-center"></td>
+                                                                                                    <td class=" text-center">M9 - Solving Measure Problems (a, money; b, length; c, mass / weight; M9 d, capacity / volume)</td>
+                                                                                                    <td class=" text-center"><span style=" background: red;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="0-49%">0%</span></td>
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                   <!-- <td class=" text-center">NA</td> -->
+                                                                                                    <td class=" text-center">2</td>
+                                                                                                    <td class=" text-center">
+                                                                                                        
+                                                                                                                                                                                                                    <div class="progress_bar">
+                                                                                                                <div class="bar zero " style="width:0%">&nbsp;</div>
+                                                                                                                <span>0%</span>
+                                                                                                            </div>
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+                                                                                                 
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr><tr>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Attempted</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Topic Name</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">status</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">No. Attempts</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">No. of Questions Attempted </th>
+                                                                                           <!-- <th class="text-center" rowspan="1" colspan="1">Usage</th>-->
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Topic Performance</th>
+                                                                                        </tr><tr>
+                                                                            <td id="tr32" onclick="expendrowrev('32')" class="text-center up"><span class="glyphicon glyphicon-ok" style="color:green;"></span></td>
+                                                                            <td class=" text-center">N - Number and place value</td>
+                                                                            <td class=" text-center"><span style=" background: red;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="0-49%">38%</span></td>
+                                                                            <td class=" text-center">3</td>
+                                                                            <td class=" text-center">4</td>
+                                                                           <!-- <td class=" text-center"></td>-->
+                                                                            <td class=" text-center">                                                                                                            <div class="progress_bar">
+                                                                                                                <div class="bar yellow " style="width:30.00%">&nbsp;</div>
+                                                                                                                <span>30.00%</span>
+                                                                                                            </div>
+                                                                            </td>
+                                                                        </tr><tr>
+                                                                            <td colspan="7">
+                                                                                <table class="noExl table table-striped table-bordered table-hover dataTable no-footer">
+                                                                                    <colgroup>
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                        <col width="16.6%">
+                                                                                    </colgroup>
+                                                                                    <tbody>
+                                                                                         <tr class="heading" role="row">
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Attempted</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Topic Name</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">status</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">No. Attempts</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">No. of Questions Attempted </th>
+                                                                                           <!-- <th class="text-center" rowspan="1" colspan="1">Usage</th>-->
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Topic Performance</th>
+                                                                                        </tr>
+                                                                                                                                                                                        <tr role="row" class="noExl">
+
+                                                                                                    <td class=" text-center"></td>
+                                                                                                    <td class=" text-center">N1 - Counting (in multiples)</td>
+                                                                                                    <td class=" text-center"><span style=" background: red;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="0-49%">13%</span></td>
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                   <!-- <td class=" text-center">NA</td> -->
+                                                                                                    <td class=" text-center">5</td>
+                                                                                                    <td class=" text-center">
+                                                                                                        
+                                                                                                                                                                                                                    <div class="progress_bar">
+                                                                                                                <div class="bar red " style="width:13.33%">&nbsp;</div>
+                                                                                                                <span>13.33%</span>
+                                                                                                            </div>
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+                                                                                                                                                                                                <tr role="row" class="noExl">
+
+                                                                                                    <td class=" text-center"></td>
+                                                                                                    <td class=" text-center">N2 - Read, Write, Order and Compare Numbers </td>
+                                                                                                    <td class=" text-center"><span style=" background: red;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="0-49%">0%</span></td>
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                   <!-- <td class=" text-center">NA</td> -->
+                                                                                                    <td class=" text-center">3</td>
+                                                                                                    <td class=" text-center">
+                                                                                                        
+                                                                                                                                                                                                                    <div class="progress_bar">
+                                                                                                                <div class="bar zero " style="width:0.00%">&nbsp;</div>
+                                                                                                                <span>0.00%</span>
+                                                                                                            </div>
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+                                                                                                                                                                                                <tr role="row" class="noExl">
+
+                                                                                                    <td class=" text-center"></td>
+                                                                                                    <td class=" text-center">N3 - Place Value, Roman Numerals</td>
+                                                                                                    <td class=" text-center"><span style=" background: red;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="0-49%">0%</span></td>
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                   <!-- <td class=" text-center">NA</td> -->
+                                                                                                    <td class=" text-center">3</td>
+                                                                                                    <td class=" text-center">
+                                                                                                        
+                                                                                                                                                                                                                    <div class="progress_bar">
+                                                                                                                <div class="bar zero " style="width:0%">&nbsp;</div>
+                                                                                                                <span>0%</span>
+                                                                                                            </div>
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+                                                                                                                                                                                                <tr role="row" class="noExl">
+
+                                                                                                    <td class=" text-center"></td>
+                                                                                                    <td class=" text-center">N4 - Identify,  Represent and Estimate, Rounding </td>
+                                                                                                    <td class=" text-center"><span style=" background: red;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="0-49%">0%</span></td>
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                   <!-- <td class=" text-center">NA</td> -->
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                    <td class=" text-center">
+                                                                                                        
+                                                                                                                                                                                                                    <div class="progress_bar">
+                                                                                                                <div class="bar zero " style="width:0%">&nbsp;</div>
+                                                                                                                <span>0%</span>
+                                                                                                            </div>
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+                                                                                                                                                                                                <tr role="row" class="noExl">
+
+                                                                                                    <td class=" text-center"></td>
+                                                                                                    <td class=" text-center">N5 - Negative Numbers </td>
+                                                                                                    <td class=" text-center"><span style=" background: green;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="70%-100%">80%</span></td>
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                   <!-- <td class=" text-center">NA</td> -->
+                                                                                                    <td class=" text-center">3</td>
+                                                                                                    <td class=" text-center">
+                                                                                                        
+                                                                                                                                                                                                                    <div class="progress_bar">
+                                                                                                                <div class="bar green " style="width:80.00%">&nbsp;</div>
+                                                                                                                <span>80.00%</span>
+                                                                                                            </div>
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+                                                                                                                                                                                                <tr role="row" class="noExl">
+
+                                                                                                    <td class=" text-center"></td>
+                                                                                                    <td class=" text-center">N6 - Number Problems </td>
+                                                                                                    <td class=" text-center"><span style=" background: red;border-radius: 50% !important;display: inline-block;height: 40px;line-height: 40px;text-align: center; width: 40px;" title="0-49%">0%</span></td>
+                                                                                                    <td class=" text-center">1</td>
+                                                                                                   <!-- <td class=" text-center">NA</td> -->
+                                                                                                    <td class=" text-center">3</td>
+                                                                                                    <td class=" text-center">
+                                                                                                        
+                                                                                                                                                                                                                    <div class="progress_bar">
+                                                                                                                <div class="bar zero " style="width:0%">&nbsp;</div>
+                                                                                                                <span>0%</span>
+                                                                                                            </div>
+                                                                                                        </td>
+
+
+                                                                                                </tr>
+                                                                                                 
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr><tr>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Attempted</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Topic Name</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">status</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">No. Attempts</th>
+                                                                                            <th class="text-center" rowspan="1" colspan="1">No. of Questions Attempted </th>
+                                                                                           <!-- <th class="text-center" rowspan="1" colspan="1">Usage</th>-->
+                                                                                            <th class="text-center" rowspan="1" colspan="1">Topic Performance</th>
+                                                                                        </tr></table></body></html>

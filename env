@@ -1,0 +1,20 @@
+APP_ENV=local
+APP_DEBUG=false
+APP_KEY=DFdfEpojarBHJW3l1NkGqzmqFQUxuq9a
+
+DB_HOST=localhost
+DB_DATABASE=satc_live
+DB_USERNAME=root
+DB_PASSWORD=root
+;DB_HOST=openwaa16.miniserver.com
+;DB_DATABASE=satsicre_londonce
+;DB_USERNAME=satsicre_londonc
+;DB_PASSWORD=WuuKur2JdwGh
+
+ADMIN_FROM_EMAIL=vignesh.t@sedinfotech.ch
+ADMIN_FROM_NAME=SATS Administrator
+ADMIN_CC_EMAIL=vignesh.t@sedinfotech.ch
+ADMIN_CC_NAME=SATS Administrator
+
+CACHE_DRIVER=file
+SESSION_DRIVER=file

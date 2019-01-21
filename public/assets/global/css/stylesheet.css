@@ -1,0 +1,5 @@
+.dasborad_graph .portlet{background:#fff}
+.dasborad_graph .portlet-body{padding:20px 0;}
+.dashboar_notification_title .notification_no{ display: inline; margin-right:100px;}
+.dashboar_notification_title .notification_no span{ color:#fff;display: inline-block; border-radius:50% !important; background:red; width:25px; height:25px; text-align:center; line-height: 23px;
+    margin-right: 5px;} 

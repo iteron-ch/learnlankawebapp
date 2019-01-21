@@ -1,0 +1,136 @@
+<html xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40"><head><!--[if gte mso 9]><xml><x:ExcelWorkbook><x:ExcelWorksheets><x:ExcelWorksheet><x:Name>Table0</x:Name><x:WorksheetOptions><x:DisplayGridlines/></x:WorksheetOptions></x:ExcelWorksheet></x:ExcelWorksheets></x:ExcelWorkbook></xml><![endif]--></head><body><table><tr>
+                                                                <th class="text-center" rowspan="1" colspan="1">Pupil Name</th>
+                                                                <th class="text-center" rowspan="1" colspan="1">Average Score</th>
+                                                                <th class="text-center" rowspan="1" colspan="1">Average Baseline</th>
+                                                                <th class="text-center" rowspan="1" colspan="1">Timeliness (minutes)</th>
+                                                            </tr><tr>
+                                                                        <td class="text-center" rowspan="1" colspan="1">Abbi Collins</td>
+                                                                                                                                                <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">0</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                    </tr><tr>
+                                                                        <td class="text-center" rowspan="1" colspan="1">Amelia Ardawa</td>
+                                                                                                                                                <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">0</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                    </tr><tr>
+                                                                        <td class="text-center" rowspan="1" colspan="1">Amelia Yapp</td>
+                                                                                                                                                <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">0</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                    </tr><tr>
+                                                                        <td class="text-center" rowspan="1" colspan="1">Buddy Chell</td>
+                                                                                                                                                <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">0</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                    </tr><tr>
+                                                                        <td class="text-center" rowspan="1" colspan="1">Carys Hill</td>
+                                                                                                                                                <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">0</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                    </tr><tr>
+                                                                        <td class="text-center" rowspan="1" colspan="1">Connor Bangs</td>
+                                                                                                                                                <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">0</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                    </tr><tr>
+                                                                        <td class="text-center" rowspan="1" colspan="1">Eden Farmiloe</td>
+                                                                                                                                                <td class="text-center" rowspan="1" colspan="1">58%</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">0</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1"><div class="progress_bar"><div class="bar green " style="width:66.441441441441%">&nbsp;</div><span>25</span></div></td>
+                                                                    </tr><tr>
+                                                                        <td class="text-center" rowspan="1" colspan="1">Ella Newman</td>
+                                                                                                                                                <td class="text-center" rowspan="1" colspan="1">76%</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">0</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1"><div class="progress_bar"><div class="bar green " style="width:46.801801801802%">&nbsp;</div><span>17</span></div></td>
+                                                                    </tr><tr>
+                                                                        <td class="text-center" rowspan="1" colspan="1">Ellie Cleary</td>
+                                                                                                                                                <td class="text-center" rowspan="1" colspan="1">70%</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">0</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1"><div class="progress_bar"><div class="bar green " style="width:66.711711711712%">&nbsp;</div><span>25</span></div></td>
+                                                                    </tr><tr>
+                                                                        <td class="text-center" rowspan="1" colspan="1">Gjovani Cinari</td>
+                                                                                                                                                <td class="text-center" rowspan="1" colspan="1">81%</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">0</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1"><div class="progress_bar"><div class="bar green " style="width:41.801801801802%">&nbsp;</div><span>15</span></div></td>
+                                                                    </tr><tr>
+                                                                        <td class="text-center" rowspan="1" colspan="1">Grace Bennett</td>
+                                                                                                                                                <td class="text-center" rowspan="1" colspan="1">82%</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">0</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1"><div class="progress_bar"><div class="bar green " style="width:67.612612612613%">&nbsp;</div><span>25</span></div></td>
+                                                                    </tr><tr>
+                                                                        <td class="text-center" rowspan="1" colspan="1">Jacob Patla</td>
+                                                                                                                                                <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">0</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                    </tr><tr>
+                                                                        <td class="text-center" rowspan="1" colspan="1">Joshua Bolshaw</td>
+                                                                                                                                                <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">0</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                    </tr><tr>
+                                                                        <td class="text-center" rowspan="1" colspan="1">Kyle Ramsbottom</td>
+                                                                                                                                                <td class="text-center" rowspan="1" colspan="1">53%</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">0</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1"><div class="progress_bar"><div class="bar green " style="width:74.414414414414%">&nbsp;</div><span>28</span></div></td>
+                                                                    </tr><tr>
+                                                                        <td class="text-center" rowspan="1" colspan="1">Lila-Rose Willoughby</td>
+                                                                                                                                                <td class="text-center" rowspan="1" colspan="1">78%</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">0</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1"><div class="progress_bar"><div class="bar green " style="width:60.810810810811%">&nbsp;</div><span>23</span></div></td>
+                                                                    </tr><tr>
+                                                                        <td class="text-center" rowspan="1" colspan="1">Lochan Cash</td>
+                                                                                                                                                <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">0</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                    </tr><tr>
+                                                                        <td class="text-center" rowspan="1" colspan="1">Lucy White</td>
+                                                                                                                                                <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">0</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                    </tr><tr>
+                                                                        <td class="text-center" rowspan="1" colspan="1">Luke Townsend</td>
+                                                                                                                                                <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">0</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                    </tr><tr>
+                                                                        <td class="text-center" rowspan="1" colspan="1">Madison Page</td>
+                                                                                                                                                <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">0</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                    </tr><tr>
+                                                                        <td class="text-center" rowspan="1" colspan="1">Megan Oakley</td>
+                                                                                                                                                <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">0</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                    </tr><tr>
+                                                                        <td class="text-center" rowspan="1" colspan="1">Morgan Slater</td>
+                                                                                                                                                <td class="text-center" rowspan="1" colspan="1">74%</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">0</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1"><div class="progress_bar"><div class="bar green " style="width:59.594594594595%">&nbsp;</div><span>22</span></div></td>
+                                                                    </tr><tr>
+                                                                        <td class="text-center" rowspan="1" colspan="1">Oliver Ray</td>
+                                                                                                                                                <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">0</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                    </tr><tr>
+                                                                        <td class="text-center" rowspan="1" colspan="1">Owen Breakwell</td>
+                                                                                                                                                <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">0</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                    </tr><tr>
+                                                                        <td class="text-center" rowspan="1" colspan="1">Phebe Foulkes</td>
+                                                                                                                                                <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">0</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                    </tr><tr>
+                                                                        <td class="text-center" rowspan="1" colspan="1">Robin Reynolds</td>
+                                                                                                                                                <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">0</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">NA</td>
+                                                                    </tr><tr>
+                                                                        <td class="text-center" rowspan="1" colspan="1">Viran Kainth</td>
+                                                                                                                                                <td class="text-center" rowspan="1" colspan="1">55%</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1">0</td>
+                                                                        <td class="text-center" rowspan="1" colspan="1"><div class="progress_bar"><div class="bar green " style="width:57.792792792793%">&nbsp;</div><span>21</span></div></td>
+                                                                    </tr></table></body></html>

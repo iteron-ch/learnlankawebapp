@@ -1,0 +1,32 @@
+<?php
+
+//create
+return [
+    'edit_template' => 'Edit Class',
+    'add_template' => 'Add Class',
+    'year' => 'Year Group',
+    'created_successfully' => 'Class has been successfully added.',
+    'updated_successfully' => 'Class has been successfully updated.',
+    'manage_classes' => 'Manage Classes',
+    'template_heading' => 'Classes',
+    'class_name_error' => 'Please enter a valid class name.',
+    'year_error' => 'Please enter a valid year .',
+    'status_error'=>'Please select one of the options.',
+    'class_label' => 'Class Name',
+    'student_label' => 'Pupil',
+    'filter_label' => 'Filter',
+    'keyword_label' => 'Enter Keyword',
+    'check_label' => 'Check all',
+    'group_label' => 'Group',
+    'uncheck_label' => 'Uncheck all',
+    'status' => 'Status',
+    'actions' => 'Actions',
+    'no_of_student' => 'Number of Pupils',
+    'created_at'=>'Created At',
+    'updated_by'=>'Updated By',
+    'updated_on' => 'Updated On',
+    'updated_by' => 'Updated By',
+    'updated_at' => 'Updated At',
+    'class_detail' => 'Class Details',
+    'added_successfully' => 'Class has been successfully added.',
+];
