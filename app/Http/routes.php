@@ -1206,7 +1206,7 @@ Route::get('register', [
 ]);
 Route::post('register', [
     'uses' => 'RegisterController@store',
-    'as' => 'student.register'
+    'as' => 'student.store'
 ]);
 Route::get('{user}/verify', [
     'uses' => 'RegisterController@verify',

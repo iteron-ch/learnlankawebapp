@@ -209,43 +209,45 @@ class ExaminationController extends Controller {
             'class_id' => '',
             'class_name' => ''
         );
-        if(!empty($sessionData['tutor_id'])){
-            $studentParentUser = $userRepo->getUser(array(
-                    'id' => $sessionData['tutor_id'],
-                    'select' => array('id', 'email', 'first_name', 'last_name')
-                ))->get()->first();
-            if(count($studentParentUser)){
-                $to_name = $studentParentUser->first_name . ' ' . $studentParentUser->last_name;
-                $to_email = $studentParentUser->email;
-                $result_data['tutor_id'] = $studentParentUser->id;
-                $result_data['tutor_name'] = $studentParentUser->first_name . ' ' . $studentParentUser->last_name;
-            }
-       }else{
-            $studentSchoolTeacher = $userRepo->getUser(array(
-                    'ids' => array($sessionData['school_id'],$sessionData['teacher_id']),
-                    'select' => array('id', 'email', 'first_name', 'last_name','school_name','user_type')
-                ))->orderBy('user_type')->get()->toArray();
-            if(count($studentSchoolTeacher) == 2){
-                if(isset($studentSchoolTeacher[0])){
-                    $schoolDetail =  $studentSchoolTeacher[0];
-                    $result_data['school_id'] = $schoolDetail['id'];
-                    $result_data['school_name'] = $schoolDetail['school_name'];
-                }
-                if(isset($studentSchoolTeacher[1])){
-                    $teacherDetail = $studentSchoolTeacher[1];
-                    $result_data['teacher_id']      = $teacherDetail['id'];
-                    $result_data['teacher_name']    = $teacherDetail['first_name'] . ' ' . $teacherDetail['last_name'];
-                    $to_name = $teacherDetail['first_name'] . ' ' . $teacherDetail['last_name'];
-                    $to_email = $teacherDetail['email'];
-                }
-            }
-            //get student class
-            $studentAssigendClass = $userRepo->getStudentAssigendClass(array('student_id' => $student_id));
-            if(count($studentAssigendClass)){
-                $result_data['class_id'] = $studentAssigendClass['id'];
-                $result_data['class_name'] = $studentAssigendClass['class_name'];
-            }
-        }
+
+        // get user school/tutor data for test
+    //     if(!empty($sessionData['tutor_id'])){
+    //         $studentParentUser = $userRepo->getUser(array(
+    //                 'id' => $sessionData['tutor_id'],
+    //                 'select' => array('id', 'email', 'first_name', 'last_name')
+    //             ))->get()->first();
+    //         if(count($studentParentUser)){
+    //             $to_name = $studentParentUser->first_name . ' ' . $studentParentUser->last_name;
+    //             $to_email = $studentParentUser->email;
+    //             $result_data['tutor_id'] = $studentParentUser->id;
+    //             $result_data['tutor_name'] = $studentParentUser->first_name . ' ' . $studentParentUser->last_name;
+    //         }
+    //    }else{
+    //         $studentSchoolTeacher = $userRepo->getUser(array(
+    //                 'ids' => array($sessionData['school_id'],$sessionData['teacher_id']),
+    //                 'select' => array('id', 'email', 'first_name', 'last_name','school_name','user_type')
+    //             ))->orderBy('user_type')->get()->toArray();
+    //         if(count($studentSchoolTeacher) == 2){
+    //             if(isset($studentSchoolTeacher[0])){
+    //                 $schoolDetail =  $studentSchoolTeacher[0];
+    //                 $result_data['school_id'] = $schoolDetail['id'];
+    //                 $result_data['school_name'] = $schoolDetail['school_name'];
+    //             }
+    //             if(isset($studentSchoolTeacher[1])){
+    //                 $teacherDetail = $studentSchoolTeacher[1];
+    //                 $result_data['teacher_id']      = $teacherDetail['id'];
+    //                 $result_data['teacher_name']    = $teacherDetail['first_name'] . ' ' . $teacherDetail['last_name'];
+    //                 $to_name = $teacherDetail['first_name'] . ' ' . $teacherDetail['last_name'];
+    //                 $to_email = $teacherDetail['email'];
+    //             }
+    //         }
+    //         //get student class
+    //         $studentAssigendClass = $userRepo->getStudentAssigendClass(array('student_id' => $student_id));
+    //         if(count($studentAssigendClass)){
+    //             $result_data['class_id'] = $studentAssigendClass['id'];
+    //             $result_data['class_name'] = $studentAssigendClass['class_name'];
+    //         }
+    //     }
         if ($data['task_type'] == REVISION) {
             //get the current revision detail
             $studentStoredRevision = $this->studentTaskRepo->getStudentStoredRevision(array(

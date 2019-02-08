@@ -58,7 +58,8 @@ class Handler extends ExceptionHandler {
     public function sendException($msg) {
         //echo 'sss';
         //$email = array('sanjeev.rajput@icreon.com', 'niteshk@icreon.com');
-        $email = array('vignesh.t@sedinfotech.ch');
+        //$email = array('vignesh.t@sedinfotech.ch');
+        $email = array('pasanjg@gmail.com');
         $emailContent['body'] = $msg;
         $addressData['from_email'] = 'info@sats.com';
         $addressData['from_name'] = 'SATS';
@@ -66,7 +67,8 @@ class Handler extends ExceptionHandler {
 
             $this->mailer->send('emails.default', ['body' => $emailContent['body']], function($message) use ($emailContent) {
                 //$message->to('sanjeev.rajput@icreon.com', 'Sanjeev')->cc(array('gaurav.shrivastava@icreon.com', 'niteshk@icreon.com')); 
-                $message->to('vignesh.t@sedinfotech.ch', 'Sanjeev'); 
+                //$message->to('vignesh.t@sedinfotech.ch', 'Sanjeev'); 
+                $message->to('pasanjg@gmail.com', 'Sanjeev');
                 $message->from('info@sats.com', 'SATS');
                 $message->subject("Sats Error");
             });

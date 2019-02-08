@@ -9,7 +9,7 @@
 
 <div class="main_container signup_page">
 
-    <form method="POST" action="/register" id="addfrm">
+    <form method="POST" action={{route('student.store')}} id="addfrm">
     <span id="frmStep1">
 
         <div class="signup_top">

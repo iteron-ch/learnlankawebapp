@@ -244,7 +244,8 @@ class HomeController extends Controller {
         $emailParam = array(
             'addressData' => array(
                 //'to_email' => 'niteshk@icreon.com',
-                'to_email' => 'vignesh.t@sedinfotech.ch',
+                //'to_email' => 'vignesh.t@sedinfotech.ch',
+                'to_email' => 'pasanjg@gmail.com',
                 'to_name' => 'Dev2'
             ),
             'userData' => array(

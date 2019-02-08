@@ -11,6 +11,7 @@ use App\Http\Controllers\Controller;
 use App\Http\Requests\Auth\LoginRequest;
 use App\Http\Requests\Auth\RegisterRequest;
 use App\Repositories\UserRepository;
+use App\Repositories\RegisterRepository;
 use App\Services\MaxValueDelay;
 use App\Jobs\SendMail;
 use DB;
@@ -26,8 +27,9 @@ class AuthController extends Controller {
      */
     protected $userRepo;
 
-    public function __construct(UserRepository $userRepo) {
+    public function __construct(UserRepository $userRepo, RegisterRepository $registerRepo) {
         $this->userRepo = $userRepo;
+        $this->registerRepo = $registerRepo;
         $this->middleware('guest', ['except' => 'getLogout']);
     }
 
@@ -106,9 +108,13 @@ class AuthController extends Controller {
             $action = $loggedInUserArray['user_type'] == STUDENT ? '/' : '/dashboard';
 
             //Store Login details 
+            //return $user->user_type;
             $this->userRepo->storeLoginDetails($loggedInUserArray['id']);
-
-
+            
+            //assign new tasks
+            if($user->user_type == 5){
+                $this->registerRepo->assignNewTasks($user->id);
+            }
 
             if (Request::ajax()) {
                 return Response::json(array(

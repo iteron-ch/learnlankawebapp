@@ -29,7 +29,7 @@
                                 </div>
                                 <br>
                                     Please click on the link that has been sent to your email account to verify your
-                                    email and activate your account. <br>
+                                    email and activate your account. You will receive your mail very shortly.<br>
                                     Click resend if you haven't received any mail.
                             </label>
                             
@@ -44,8 +44,8 @@
 
                     <div class="row button_row">
                         <div class="col3">
-                            <a href="{{ URL::to('register/resend/' . $user->confirmation_code) }}">
-                            <button type="submit" class="button" id="next_step1">
+                            <a href="{{ URL::to('register/resend/' . $user->confirmation_code) }}" onClick="javascript:window.close();" target="_blank">
+                            <button type="button" class="button" id="next_step1">
                                 Resend
                             </button>
                             </a>

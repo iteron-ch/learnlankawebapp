@@ -1,0 +1,213 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use App\Models\User;
+use DB;
+use Datatables;
+use Carbon\Carbon;
+use Mail;
+use Illuminate\Support\Facades\Hash;
+
+use App\Models\Task;
+use App\Models\Question;
+use App\Models\Questionset;
+use App\Models\Taskassignment;
+use App\Models\Taskstudents;
+
+use App\Repositories\TaskRepository;
+use App\Repositories\RegisterRepository;
+
+class RegisterController extends Controller
+{
+
+    public function __construct(User $user, TaskRepository $taskRepo, Taskassignment $taskassignment, TaskStudents $taskstudent)
+    {
+        $this->middleware('guest');
+        $this->user = $user;
+        $this->taskRepo = $taskRepo;
+        $this->taskassignment = $taskassignment;
+        $this->taskstudent = $taskstudent;
+    }
+
+    /**
+     * Show the form for creating a new resource.
+     *
+     * @return Response
+     */
+    public function create()
+    {
+        // $user = new $this->user;
+        // $user = User::whereId(1093)->first();
+        // return $this->assignTest($user->id);
+
+        $data['JsValidator'] = 'App\Http\Requests\Tutor\FrontTutorCreateRequest';
+        return view('auth.register', $data);
+    }
+
+    /**
+     * Store a newly created resource in storage.
+     *
+     * @param  Request  $request
+     * @return Response
+     */
+    public function store(Request $request)
+    {
+        $user = new User;
+        $user->first_name = $request->input('first_name');
+        $user->last_name = $request->input('last_name');
+        $user->username = $request->input('username');
+        $user->email = $request->input('email');
+        $user->password = Hash::make($request->input('password'));
+        $user->user_type = 5;
+        $user->confirmation_code = str_random(30);
+
+        $user->school_id = 21;
+        $user->teacher_id = 23;
+        $user->created_by = 23;
+        $user->updated_by = 23;
+        $user->key_stage = 2;
+        $user->year_group = 6;
+
+        $user->save();
+
+        $this->sendMail($user);
+
+        $data['JsValidator'] = 'App\Http\Requests\Tutor\FrontTutorCreateRequest';
+        return view('auth.verify', $data)->with('user', $user);
+    }
+
+    /**
+     * Display the specified resource.
+     *
+     * @param $userId
+     */
+    public function verify(User $user)
+    {
+        $data['JsValidator'] = 'App\Http\Requests\Tutor\FrontTutorCreateRequest';
+        return view('auth.verify', $data)->with('user', $user);
+    }
+
+    public function sendMail(User $user)
+    {
+        Mail::send('auth.verification', ['user' => $user], function ($m) use ($user) {
+            $m->from('pasanjg@gmail.com', 'LearnLanka');
+
+            $m->to($user->email, $user->username)->subject('Email Verification');
+        });
+    }
+
+    public function confirm($confirmation_code)
+    {
+        if(!$confirmation_code)
+        {
+            //throw new InvalidConfirmationCodeException;
+            return redirect('/login');
+        }
+
+        $user = User::whereConfirmationCode($confirmation_code)->first();
+
+        if (!$user)
+        {
+            //throw new InvalidConfirmationCodeException;
+            return redirect('/login');
+        }
+
+        $user->confirmed = 1;
+        $user->confirmation_code = null;
+        $user->save();
+
+        $this->assignTest($user->id);
+
+        return redirect('/login')->with('ok', 'Account verified. Please login');
+    }
+
+    public function resend($confirmation_code)
+    {
+        if(!$confirmation_code)
+        {
+            //throw new InvalidConfirmationCodeException;
+            return redirect('/login');
+        }
+
+        $user = User::whereConfirmationCode($confirmation_code)->first();
+
+        if (!$user)
+        {
+            //throw new InvalidConfirmationCodeException;
+            return redirect('/login');
+        }
+
+        $user->confirmed = 0;
+        $user->confirmation_code = str_random(30);
+        $user->save();
+
+        $this->sendMail($user);
+
+        $data['JsValidator'] = 'App\Http\Requests\Tutor\FrontTutorCreateRequest';
+        return view('auth.verify', $data)->with('user', $user);
+    }
+
+    protected function getTests()
+    {
+        // $params = array(
+        //     'task_id' => $id,
+        //     'task_type' => TEST,
+        //     'created_by' => 23
+        // );
+        // $model = $this->taskRepo->getTestList($params)->get()->first();
+        //$studentRecord = User::where(['user_type' => STUDENT, 'teacher_id' => $authUser['id']])->where('status', '!=', DELETED)->select('first_name', 'last_name', 'id', 'email')->get()->toArray();
+
+        return $tests = Task::where(['task_type' => TEST, 'status' => ACTIVE])->get()->toArray();
+        //return $tests = Task::whereId(130)->first();
+
+    }
+
+
+    protected function saveAssignment($taskId, $studentId)
+    {
+        $taskassignment = new $this->taskassignment;
+        $taskassignment->task_id = $taskId;
+        $taskassignment->created_by = 23;
+        $taskassignment->updated_by = 23;
+        //$taskassignment->student_source = $inputs['selection_type'];
+        $taskassignment->assign_date = Carbon::today();
+        $taskassignment->completion_date = Carbon::today()->addDays(2);
+        $taskassignment->difficulty = !empty($inputs['difficulty']) ? implode(",", $inputs['difficulty']) : '';
+        $taskassignment->student_num = 1;
+        $taskassignment->save();
+
+        return $this->saveAssignedStudent($taskId, $taskassignment->id, $studentId);
+    }
+
+
+    protected function saveAssignedStudent($taskId, $assignId, $studentId)
+    {
+        $taskstudent = new $this->taskstudent;
+        $taskstudent->assign_id = $assignId;
+        $taskstudent->task_id = $taskId;
+        $taskstudent->student_id = $studentId;
+        $taskstudent->save();
+
+        //return 0;
+    }
+
+
+    protected function assignTest($studentId)
+    {
+        $tests  = $this->getTests();
+
+        //foreach($tests as $test){
+            //return $this->saveAssignment($tests->id, $studentId);
+            //return $tests->id;
+        //}
+
+        if (isset($tests) && count($tests) > 0) {
+            foreach ($tests as $key => $val) {
+                $this->saveAssignment($val['id'], $studentId);
+            }
+        }
+    }
+
+}

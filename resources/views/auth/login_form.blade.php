@@ -12,6 +12,8 @@
             <label class="rememberme check">
                 <input type="checkbox" name="memory" value="1"/>{{ trans('admin/auth/login.remind') }} 
             </label>
+            <br><br>
+            {!! HTML::link(route('student.register'),'Need account?' , array('id' => 'forget-password','class' => 'forget-password')) !!} <br><br>
             {!! HTML::link(route('forgotpassword'),trans('admin/auth/login.forget_password') , array('id' => 'forget-password','class' => 'forget-password')) !!}
             {!! HTML::link(route('forgotusername'),trans('admin/auth/login.forgot_username') , array('id' => 'forget-password','class' => 'forget-password')) !!}
         </div>  
